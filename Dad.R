@@ -8,106 +8,12 @@ setwd("~/Documents/Dad/CarmelRealEstate/")
 source('GibbsSamplingFunctionsDad.R')
 carmel = read.csv('Carmel real estate Nov 2013 to Nov 2015.csv',na.strings = '--')
 
-# Functions ---------------------------------------------------------------
-
-L <- function(x, k) 
-{
-  c(rep(NA, k), x)[1 : length(x)] 
-}
-
-deseasonalizeQ <- function (x)
-{
-  x <- ts(x)
-  #Step1: Centered moving averages: create cma time series having the same length with the original time series x
-  # cma has 2 NAs on both ends.
-  cma <- filter(x, filter = c(1/8, 1/4, 1/4, 1/4, 1/8), sides=2)
-  
-  #Step2: Ratios = Original time series / centered moving averages
-  ratio <- x/cma
-  
-  #Step3: Unadjusted 4 seasonal indexes
-  unadj4si <- ts(1:4)
-  # floor((length(x)-4)/4)  #"-4" is 4 NA at both ends; below "-1" is due to starting "0:" in multiplication
-  
-  unadj4si[1] <- mean(ratio[3+4*(0:(floor((length(x)-4)/4) - 1))])
-  unadj4si[2] <- mean(ratio[4+4*(0:(floor((length(x)-4)/4) - 1))])
-  unadj4si[3] <- mean(ratio[5+4*(0:(floor((length(x)-4)/4) - 1))])
-  unadj4si[4] <- mean(ratio[6+4*(0:(floor((length(x)-4)/4) - 1))])
-  
-  #Step4: Adjusted 4 seasonal indexes
-  adj4si <- ts(1:4)
-  adj4si[1] <- unadj4si[1]/mean(c(unadj4si[1],unadj4si[2],unadj4si[3],unadj4si[4]))
-  adj4si[2] <- unadj4si[2]/mean(c(unadj4si[1],unadj4si[2],unadj4si[3],unadj4si[4]))
-  adj4si[3] <- unadj4si[3]/mean(c(unadj4si[1],unadj4si[2],unadj4si[3],unadj4si[4]))
-  adj4si[4] <- unadj4si[4]/mean(c(unadj4si[1],unadj4si[2],unadj4si[3],unadj4si[4]))
-  
-  #Step5: Propogated adjusted seasonal indexes
-  propadjsi <- ts(1:length(x))
-  
-  propadjsi[3+4*(0:(floor((length(x)-4)/4) - 1))] <- adj4si[1]
-  propadjsi[4+4*(0:(floor((length(x)-4)/4) - 1))] <- adj4si[2]
-  propadjsi[5+4*(0:(floor((length(x)-4)/4) - 1))] <- adj4si[3]
-  propadjsi[6+4*(0:(floor((length(x)-4)/4) - 1))] <- adj4si[4]
-  
-  propadjsi[1] <- adj4si[3]
-  propadjsi[2] <- adj4si[4]
-  propadjsi[length(x)-1] <- adj4si[1]
-  propadjsi[length(x)] <- adj4si[2]
-  
-  #Step6: Deseasonalized values
-  out <- x/propadjsi  # deseasonalized = x/propadjsi
-  return(out)
-}
-
-deseasonalizeDavidQ = function(x)
-{
-  Time = 1:length(x)
-  N = rep(1:4,length(x)/4)
-  
-  Q1 = (N==1)
-  Q2 = (N==2)
-  Q3 = (N==3)
-  
-  fit = lm(x~Time+Q1+Q2+Q3)
-  
-  alpha = fit$coefficients[1]
-  beta = fit$coefficients[2]
-  deseason = alpha + beta*Time + fit$residuals
-  return(deseason)
-}
-
 # Data --------------------------------------------------------------------
 
 N = dim(carmel)[1]
 
 # unique values
 uneigh = unique(carmel$Location.description)
-
-# c=1
-# for(i in 1:length(ucounti))
-# {
-#   for(j in 1:length(ucountj))
-#   {
-#     ind = intersect(which(newmac$country_j==ucountj[j]),which(newmac$country_i==ucounti[i]))
-#     if(length(ind)!=136) { print(c); print(length(ind)); print(ind)}
-#     # export share change for all i and j
-#     exp_share = newmac$exp_share[ind]
-#     newmac$dexp_share[ind] = log(exp_share) - log(L(exp_share,4))
-#     
-#     # fx change for all i and j
-#     fx = newmac$fx[ind]
-#     newmac$dfx[ind] = log( (1 - ((fx)/(L(fx,4)))) + 1 )
-#     
-#     # comp change for all i and j
-#     comp = newmac$comp[ind]
-#     newmac$dcomp[ind] = log(comp) - log(L(comp,4))
-#     
-#     # gdp change for all i and j
-#     gdp = newmac$gdp_j[ind]
-#     newmac$dgdp[ind] = log( ((gdp)/(L(gdp,4)) - 1) + 1 )
-#     c=c+1
-#   }
-# }
 
 # Building design matrix --------------------------------------------------
 
@@ -125,43 +31,39 @@ X = Matrix(matrix(0,M,size),sparse=T) #using sparse matrix class
 # indicies for each i and j pair
 indlist = list()
 k=1
-for(i in 1:length(ucounti))
+for(i in 1:length(uneigh))
 {
-  for(j in 1:length(ucountj))
-  {
-    indlist[[k]] = intersect(which(newmac2$country_j==ucountj[j]),which(newmac2$country_i==ucounti[i]))
-    k=k+1
-  }
+  indlist[[k]] = which(carmel2$Location.description==uneigh[i])
+  k=k+1
 }
 
 # constructing the covariates
-countrypairnum = 1
+neighnum = 1
 for(i in loopind)
 {
-  ind = indlist[[countrypairnum]]
-  X[ind,i] = newmac2$dfx[ind]
-  X[ind,i+1] = newmac2$dcomp[ind]
-  X[ind,i+2] = newmac2$dgdp[ind]
-  countrypairnum=countrypairnum+1
+  ind = indlist[[neighnum]]
+  X[ind,i] = carmel2$Beds[ind]
+  X[ind,i+1] = carmel2$Baths.Full[ind]
+  X[ind,i+2] = carmel2$Baths.Total[ind]
+  X[ind,i+3] = carmel2$Lotsqft[ind]
+  X[ind,i+4] = carmel2$DOM[ind]
+  neighnum=neighnum+1
 }
 
 # saving the response as y
-y = newmac2$dexp_share
+y = as.numeric(carmel2$Closeprice) / as.numeric(carmel2$Homesqft)
 
 # Estimating Model via Gibbs Sampler --------------------------------------
 
-numi = length(ucounti)
-numj = length(ucountj)
-loops = 8000
-
 alphaIDlist = list()
-for(i in 1:length(ucounti))
+for(i in 1:length(uneigh))
 {
-  alphaIDlist[[i]] = which(newmac2$country_i==ucounti[i])
+  alphaIDlist[[i]] = which(carmel2$Location.description==uneigh[i])
 }
 
-source('GibbsSamplingFunctionsKent.R')
-results = Gibbswrapper(loops,y,X,numi,numj,alphaIDlist,BPrior=TRUE)
+source('GibbsSamplingFunctionsDad.R')
+loops = 8000
+results = Gibbswrapper(loops,y,X,numi,alphaIDlist,BPrior=TRUE)
 
 # Summarizing results -----------------------------------------------------
 
