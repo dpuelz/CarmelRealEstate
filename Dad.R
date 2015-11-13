@@ -64,7 +64,7 @@ for(i in 1:length(uneigh))
 source('GibbsSamplingFunctionsDad.R')
 loops = 1000
 numi = length(uneigh)
-results = Gibbswrapper(loops,y,X,numi,alphaIDlist,BPrior=TRUE)
+results = Gibbswrapper(loops,y,X,numi,alphaIDlist,BPrior=FALSE)
 
 # Summarizing results -----------------------------------------------------
 
@@ -101,33 +101,33 @@ for(i in 1:length(ucounti))
 
 pdf('prelimresults-BETAS.pdf',paper = "a4", width = 0, height = 0)
 par(mfrow = c(6,3))
-reportMCMC(t(BMCMC[,1000:2000]))
+reportMCMC(t(BMCMC))
 dev.off()
 
 pdf('prelimresults-alphas.pdf',paper = "a4", width = 0, height = 0)
 par(mfrow = c(3,3))
-reportMCMC(t(alphaMCMC[,1000:2000]))
+reportMCMC(t(alphaMCMC))
 dev.off()
 
 
-plot(sig2MCMC[range],type='l',col=2)
-plot(sigmalpha2MCMC[range],type='l',col=5)
+plot(sig2MCMC,type='l',col=2)
+plot(sigmalpha2MCMC,type='l',col=5)
 
-plot(tau2MCMC[1,range],type='l')
-plot(tau2MCMC[2,range],type='l')
-plot(tau2MCMC[3,range],type='l')
+plot(tau2MCMC[1,],type='l')
+plot(tau2MCMC[2,],type='l')
+plot(tau2MCMC[3,],type='l')
 
-plot(muMCMC[1,range],type='l')
-plot(muMCMC[2,range],type='l')
-plot(muMCMC[3,range],type='l')
+plot(muMCMC[1,],type='l')
+plot(muMCMC[2,],type='l')
+plot(muMCMC[3,],type='l')
 
-plot(BMCMC[1,range],type='l')
-plot(BMCMC[2,range],type='l')
-plot(BMCMC[3,range],type='l')
-plot(BMCMC[4,range],type='l')
+plot(BMCMC[1,],type='l')
+plot(BMCMC[2,],type='l')
+plot(BMCMC[3,],type='l')
+plot(BMCMC[4,],type='l')
 
-plot(BMCMC[10,range],type='l')
-plot(BMCMC[11,range],type='l')
-plot(BMCMC[12,range],type='l')
-plot(BMCMC[13,range],type='l')
+plot(BMCMC[10,],type='l')
+plot(BMCMC[11,],type='l')
+plot(BMCMC[12,],type='l')
+plot(BMCMC[13,],type='l')
 
