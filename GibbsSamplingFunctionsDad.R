@@ -227,7 +227,7 @@ Gibbswrapper = function(loops,y,X,numi,alphaIDlist,BPrior)
     
     if(BPrior==FALSE)
     {
-      tau2MCMC[,i] = 50
+      tau2MCMC[,i] = 1000
       muMCMC[,i] = 0
     }
     
