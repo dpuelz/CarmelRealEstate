@@ -165,7 +165,7 @@ Gibbswrapper = function(loops,y,X,numi,alphaIDlist,BPrior)
 {
   # prior on mui
   m = 0
-  sig02 = 50
+  sig02 = 1000
   
   # other stuff
   size = dim(X)[2]
@@ -220,7 +220,9 @@ Gibbswrapper = function(loops,y,X,numi,alphaIDlist,BPrior)
         predin = (loopind+j-1)
         tau2MCMC[j,i] = sampletau2((BMCMC[predin,i]-muMCMC[j,i-1]))
         muMCMC[j,i] = samplemu(BMCMC[predin,i],tau2MCMC[j,i],m,sig02)    
-      }  
+      } 
+      if(i%%10==0){print(print(tau2MCMC[,i]))}
+      # if(i%%10==0){print(print(muMCMC[,i]))} 
     }
     
     if(BPrior==FALSE)
