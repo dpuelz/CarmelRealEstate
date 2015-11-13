@@ -1,0 +1,190 @@
+Area,Location description,Street Address,Cross Street,Originallistprice,Listpriceatsale,Closeprice,Close Date,Closemonth,Closeyear,DOM,Beds,Baths Total,Baths Full,Baths Half,Homesqft,Lotsqft,Garage,Garage Style,View,View Description
+140, Carmel Woods,24410 S SAN LUIS Avenue,San Lucas," 1,500,000 "," 1,299,900 "," 1,225,000 ",1/22/15, 1.00 ,2015,114,3,3,3,0,2494,19477,--,--,Yes,Local/Neighborhood
+140, Carmel Woods,24651 CABRILLO Street,Pico," 1,595,000 "," 1,325,000 "," 1,250,000 ",1/21/15, 1.00 ,2015,317,3,3,3,0,2504,10500,2,--,Yes,Local/Neighborhood
+140, Carmel Woods,24515 San Luis Avenue,Highway 1," 1,394,000 "," 1,394,000 "," 1,394,000 ",9/16/15, 9.00 ,2015,5,3,3,3,--,1931,8100,1,--,--,--
+140, Carmel Woods,24452 Portola Avenue,San Lucas," 1,495,000 "," 1,495,000 "," 1,430,000 ",10/7/15, 10.00 ,2015,139,3,2,2,--,2304,5800,2,"Electric Gate,Gate/Door Opener,Guest / Visitor Parking,On Street",Yes,Ocean
+140, Carmel Woods,24460 S San Luis Avenue,--," 1,559,000 "," 1,559,000 "," 1,559,000 ",3/17/15, 3.00 ,2015,0,3,3,3,--,2400,13200,2,Off-Street Parking,Yes,"Bay,Ocean"
+140, Carmel Woods,24479 San Juan Road,Pescadero," 1,795,000 "," 1,749,000 "," 1,600,000 ",5/8/15, 5.00 ,2015,80,3,2.1,2,1,2331,5805,1,"Guest / Visitor Parking,Off-Site Parking",--,--
+140, Carmel Woods,24498 PESCADERO Road,Castro," 1,735,000 "," 1,735,000 "," 1,695,000 ",1/13/14, 1.00 ,2014,80,3,2,2,0,1775,6098,1,"Detached,Gate/Door Opener",Yes,Local/Neighborhood
+140, Carmel Woods,24576 PORTOLA Avenue,Serra/Guadalupe," 1,798,000 "," 1,749,000 "," 1,700,000 ",8/7/14, 8.00 ,2014,92,3,2.1,2,1,1646,4100,1,Off-Street Parking,Yes,"Local/Neighborhood,Ocean"
+140, Carmel Woods,24651 GUADALUPE Street,Serra," 1,995,000 "," 1,795,000 "," 1,725,000 ",12/13/13, 12.00 ,2013,158,3,2.1,2,1,2100,5377,--,"Gate/Door Opener,Off-Street Parking",Yes,Local/Neighborhood
+140, Carmel Woods,24337 SAN JUAN Road,San Marcos," 1,950,000 "," 1,950,000 "," 1,800,000 ",7/2/14, 7.00 ,2014,4,3,2.1,2,1,2540,6800,1,Gate/Door Opener,--,--
+140, Carmel Woods,24429 Portola Avenue,Serra," 2,095,000 "," 2,095,000 "," 2,095,000 ",7/16/15, 7.00 ,2015,48,4,3.1,3,1,2585,9148,1,--,Yes,"Forest/Woods,Ocean"
+141, Northwest Carmel,0 MISSION & 4th SE Corner I,4th," 1,349,000 "," 1,297,000 "," 1,200,000 ",11/7/14, 11.00 ,2014,184,2,2.1,2,1,1390,770,--,"Gate/Door Opener,Guest / Visitor Parking",Yes,"Ocean,City Lights"
+141, Northwest Carmel,0 Lopez Avenue,4th," 1,395,000 "," 1,395,000 "," 1,280,000 ",12/5/13, 12.00 ,2013,10,2,2.1,2,1,2116,4300,1,Off-Street Parking,--,--
+141, Northwest Carmel,0 Casanova 5 SE of 4th Street,--," 1,495,000 "," 1,295,000 "," 1,284,000 ",10/14/15, 10.00 ,2015,91,2,2,2,--,1360,3751,1,--,Yes,Ocean
+141, Northwest Carmel,24844 DOLORES Street,First," 1,495,000 "," 1,495,000 "," 1,440,000 ",4/22/14, 4.00 ,2014,103,3,2,2,0,1908,8000,2,--,Yes,"Local/Neighborhood,Ocean"
+141, Northwest Carmel,24770 PESCADERO Road,1st Ave," 1,495,000 "," 1,495,000 "," 1,450,000 ",5/1/14, 5.00 ,2014,85,3,2,2,0,2679,11100,2,Detached,Yes,Garden/Greenbelt
+141, Northwest Carmel,0 NE LINCOLN Street,2nd," 1,699,000 "," 1,649,000 "," 1,499,000 ",10/3/14, 10.00 ,2014,157,3,2,2,0,1652,4000,1,--,Yes,"Local/Neighborhood,Ocean"
+141, Northwest Carmel,0 San Carlos 3 NW 2nd,2nd," 1,648,000 "," 1,599,000 "," 1,500,000 ",9/18/15, 9.00 ,2015,71,3,2.1,2,1,1620,4000,1,"Gate/Door Opener,Off-Street Parking",Yes,Other
+141, Northwest Carmel,3038 ALTA Avenue,Camino del Monte," 1,895,000 "," 1,695,000 "," 1,575,000 ",2/5/15, 2.00 ,2015,130,3,2,2,0,2000,16000,2,"Detached,Off-Street Parking",--,--
+141, Northwest Carmel,0 Monte Verde & 4th Avenue,4th Avenue," 1,695,000 "," 1,695,000 "," 1,600,000 ",6/1/15, 6.00 ,2015,11,3,2,2,--,1625,4000,1,"Guest / Visitor Parking,Off-Street Parking,On Street",Yes,Forest/Woods
+141, Northwest Carmel,0 San Carlos ST NE of Vista,Vista," 1,850,000 "," 1,699,000 "," 1,600,000 ",2/14/14, 2.00 ,2014,135,3,2,2,0,1951,4000,1,Gate/Door Opener,Yes,Ocean
+141, Northwest Carmel,0 San Carlos & Vista,Vista," 1,750,000 "," 1,750,000 "," 1,625,000 ",12/16/14, 12.00 ,2014,43,3,2,2,0,1647,4000,--,--,Yes,Ocean
+141, Northwest Carmel,8 NE LOPEZ & 4th Avenue,4th," 1,795,000 "," 1,795,000 "," 1,650,000 ",3/20/14, 3.00 ,2014,39,3,2,2,0,1479,4000,1,"Detached,Gate/Door Opener",Yes,Local/Neighborhood
+141, Northwest Carmel,0 CASANOVA 3 SE of 4th Street,4th," 1,950,000 "," 1,765,000 "," 1,675,000 ",4/8/14, 4.00 ,2014,192,3,2,2,0,1250,4000,1,--,Yes,Ocean
+141, Northwest Carmel,0 NW Corner SAN CARLOS & 2nd Avenue,2nd," 1,995,000 "," 1,850,000 "," 1,800,000 ",10/30/14, 10.00 ,2014,173,3,2.1,2,1,1741,4647,1,Off-Street Parking,Yes,Ocean
+141, Northwest Carmel,0 SAN CARLOS 4NW of 1st Avenue,First," 1,845,000 "," 1,845,000 "," 1,800,000 ",5/23/14, 5.00 ,2014,17,3,2,2,0,1521,4000,--,"Gate/Door Opener,Off-Street Parking",Yes,"Local/Neighborhood,Ocean"
+141, Northwest Carmel,0 Dolores 4 NW of 2nd,2nd," 1,895,000 "," 1,895,000 "," 1,807,500 ",5/12/15, 5.00 ,2015,86,3,2.1,2,1,1641,4000,1,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,Ocean
+141, Northwest Carmel,0 CASANOVA 2 SE of 4th,4th," 1,995,000 "," 1,995,000 "," 1,847,500 ",1/5/15, 1.00 ,2015,90,3,2,2,0,1693,4000,1,--,--,--
+141, Northwest Carmel,0 Casanova 3 NW of Ocean Street,Ocean Avenue," 1,895,000 "," 1,895,000 "," 1,850,000 ",4/21/15, 4.00 ,2015,24,4,2.1,2,1,2732,4300,1,"Guest / Visitor Parking,Off-Street Parking",Yes,Ocean
+141, Northwest Carmel,0 Casanova 2 NW of Ocean Avenue,--," 1,995,000 "," 1,995,000 "," 1,850,000 ",6/23/15, 6.00 ,2015,28,4,3,3,--,1737,4800,1,"Gate/Door Opener,Off-Street Parking,On Street",Yes,Ocean
+141, Northwest Carmel,24956 Lincoln Street,First," 1,985,000 "," 1,985,000 "," 1,871,950 ",6/11/15, 6.00 ,2015,74,3,2.1,2,1,2270,6920,1,--,Yes,"Canyon,Ocean"
+141, Northwest Carmel,0 LINCOLN 2 SE of 2nd,Second," 2,099,000 "," 2,099,000 "," 1,900,000 ",10/9/14, 10.00 ,2014,9,3,2,2,0,1622,4000,1,"Detached,Gate/Door Opener,Off-Street Parking",Yes,"Bay,Ocean"
+141, Northwest Carmel,0 MONTE VERDE 5 NE of 5th Avenue,5th," 1,995,000 "," 1,995,000 "," 1,900,000 ",3/28/14, 3.00 ,2014,20,3,3,3,0,1778,5100,1,"Gate/Door Opener,Off-Street Parking",Yes,Local/Neighborhood
+141, Northwest Carmel,0 LINCOLN & 5TH NW CORNER,Lincoln," 2,245,000 "," 1,950,000 "," 1,900,000 ",4/29/14, 4.00 ,2014,172,3,2,2,0,1593,4000,1,Gate/Door Opener,Yes,"Bay,Local/Neighborhood,Ocean,City Lights"
+141, Northwest Carmel,0 Monte Verde 4 NE of 4th,4th," 2,098,000 "," 2,098,000 "," 1,965,000 ",10/15/14, 10.00 ,2014,54,3,2,2,0,1554,4000,1,Detached,Yes,Local/Neighborhood
+141, Northwest Carmel,0 Lincoln 1 NW of 5th,Lincoln," 1,978,000 "," 1,978,000 "," 1,987,000 ",9/29/14, 9.00 ,2014,7,3,2,2,0,1557,4000,1,Off-Street Parking,Yes,"Bay,Ocean,City Lights"
+141, Northwest Carmel,0 CARMELO 5 NW of 4TH Avenue,4th," 2,000,000 "," 2,000,000 "," 2,000,000 ",5/9/14, 5.00 ,2014,0,2,2,2,0,2184,5000,1,--,--,--
+141, Northwest Carmel,0 Monte Verde & 4th NE Corner,4th," 2,150,000 "," 2,150,000 "," 2,078,000 ",3/16/15, 3.00 ,2015,105,3,2,2,0,1600,3920,--,--,Yes,Local/Neighborhood
+142, Northeast Carmel,0 SANTA RITA 2 NE OF 3RD,3rd," 1,399,000 "," 1,285,000 "," 1,200,000 ",11/7/13, 11.00 ,2013,231,3,3,3,0,1615,4000,1,Off-Street Parking,Yes,Local/Neighborhood
+142, Northeast Carmel,0 SW 3rd and CARPENTER Street,Carpenter," 1,375,000 "," 1,289,000 "," 1,230,000 ",8/26/14, 8.00 ,2014,365,3,3,3,0,1863,6000,2,--,Yes,Local/Neighborhood
+142, Northeast Carmel,0 PERRY NEWBERRY & 5th SE CORNER,5th," 1,425,000 "," 1,350,000 "," 1,260,000 ",8/11/14, 8.00 ,2014,38,3,3,3,0,2025,5180,2,Gate/Door Opener,Yes,"Mountains,Local/Neighborhood"
+142, Northeast Carmel,24778 GUADALUPE Street,Valley," 1,325,000 "," 1,325,000 "," 1,260,000 ",1/7/14, 1.00 ,2014,165,3,3,3,0,1351,4000,1,Off-Street Parking,Yes,Local/Neighborhood
+142, Northeast Carmel,3055 LORCA Lane,Junipero," 1,450,000 "," 1,395,000 "," 1,325,000 ",1/21/14, 1.00 ,2014,164,3,2.1,2,1,1950,7200,1,Off-Street Parking,--,--
+142, Northeast Carmel,0 CARPENTER 2 NE OF 6TH,6th," 1,899,000 "," 1,499,000 "," 1,400,000 ",9/24/15, 9.00 ,2015,418,3,2,2,0,1916,4875,1,Gate/Door Opener,Yes,Local/Neighborhood
+142, Northeast Carmel,0 Guadalupe & 1st NW Corner,--," 1,449,000 "," 1,449,000 "," 1,449,000 ",6/19/15, 6.00 ,2015,2,3,2,2,--,1264,3920,1,Detached,--,--
+142, Northeast Carmel,0 SE Guadalupe & 4th Avenue,4th Avenue," 1,575,000 "," 1,575,000 "," 1,500,000 ",8/11/15, 8.00 ,2015,7,3,2,2,0,1650,4000,1,--,--,--
+142, Northeast Carmel,0 ESCOLLE Way,Perry Newberry," 1,547,500 "," 1,547,500 "," 1,525,000 ",10/8/14, 10.00 ,2014,17,2,2,2,0,1716,6098,1,"Detached,Gate/Door Opener",Yes,Local/Neighborhood
+142, Northeast Carmel,0 NE JUNIPERO Avenue,Junipero," 1,750,000 "," 1,695,000 "," 1,525,000 ",11/26/14, 11.00 ,2014,232,5,5,5,0,2638,7500,2,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,"Local/Neighborhood,Ocean"
+142, Northeast Carmel,0 Torres 2 NE of 3rd Street,3rd," 1,695,000 "," 1,695,000 "," 1,550,000 ",6/2/15, 6.00 ,2015,81,3,2.1,2,1,1600,4000,1,Detached,--,--
+142, Northeast Carmel,3rd Avenue SE Lobos Street,Lobos Street," 1,575,000 "," 1,575,000 "," 1,550,000 ",10/28/15, 10.00 ,2015,57,3,3,3,0,1692,4000,--,"Off-Street Parking,Parking Area",--,--
+142, Northeast Carmel,0 SANTA FE 2 NE OF 2ND Street,2nd," 1,695,000 "," 1,695,000 "," 1,600,000 ",3/6/14, 3.00 ,2014,30,3,2.1,2,1,1658,4000,1,--,--,--
+142, Northeast Carmel,0 Torres & 1st SE Corner,1st Avenue," 1,795,000 "," 1,695,000 "," 1,627,500 ",5/1/15, 5.00 ,2015,148,3,2,2,0,1685,3920,1,Gate/Door Opener,Yes,Local/Neighborhood
+142, Northeast Carmel,0 NE Corner of Santa Rita & 5th Ave,5th Avenue," 1,749,000 "," 1,695,000 "," 1,650,000 ",8/26/14, 8.00 ,2014,66,3,2.1,2,1,1642,5700,1,Gate/Door Opener,Yes,"Bay,Mountains,Local/Neighborhood,Ocean"
+142, Northeast Carmel,0 PERRY NEWBERRY & ESCOLLE WAY SE CORNER,Escolle Way," 1,925,000 "," 1,795,000 "," 1,650,000 ",5/12/15, 5.00 ,2015,115,3,2.1,2,1,1741,4067,1,--,Yes,Local/Neighborhood
+142, Northeast Carmel,0 Lobos & 1st SW Corner,Lobos and First," 1,795,000 "," 1,795,000 "," 1,700,000 ",10/10/15, 10.00 ,2015,97,3,2.1,2,1,1826,7000,1,"Guest / Visitor Parking,Parking Area",--,--
+142, Northeast Carmel,0 NW CORNER OF LOBOS & 4TH Avenue,Lobos St.," 1,900,000 "," 1,900,000 "," 1,775,000 ",6/18/14, 6.00 ,2014,138,4,2.1,2,1,2287,4700,1,--,Yes,"Garden/Greenbelt,Ocean"
+142, Northeast Carmel,0 NE CORNER of GUADALUPE and 6th Street,6th," 1,795,000 "," 1,795,000 "," 1,775,000 ",2/26/14, 2.00 ,2014,25,3,2,2,0,1722,4000,1,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,"Mountains,Local/Neighborhood,Ocean"
+142, Northeast Carmel,0 Santa Fe 4 SW of 3rd,3rd," 1,895,000 "," 1,895,000 "," 1,835,000 ",12/3/13, 12.00 ,2013,13,3,2,2,0,1668,4000,1,"Guest / Visitor Parking,Off-Street Parking",Yes,Local/Neighborhood
+142, Northeast Carmel,0 GUADALUPE 3 SW OF 5TH,5th," 2,275,000 "," 2,175,000 "," 1,937,813 ",6/16/14, 6.00 ,2014,77,3,2,2,0,1750,4000,1,Detached,Yes,Ocean
+143, Southwest Carmel,0 9TH Avenue,MONTE VERDE," 1,295,000 "," 1,295,000 "," 1,200,000 ",6/13/14, 6.00 ,2014,12,2,1,1,0,977,4000,1,Gate/Door Opener,Yes,"Local/Neighborhood,Ocean"
+143, Southwest Carmel,0 San Carlos Street 4 SW of 9th,9th," 1,395,000 "," 1,345,000 "," 1,220,000 ",4/27/15, 4.00 ,2015,110,2,2,2,0,1530,6400,--,Off-Street Parking,--,--
+143, Southwest Carmel,0 MONTE VERDE 2 NW OF 11TH,11th," 1,395,000 "," 1,395,000 "," 1,250,000 ",10/29/14, 10.00 ,2014,20,2,2,2,0,1062,3920,--,--,Yes,Local/Neighborhood
+143, Southwest Carmel,0 NW DOLORES Street,10th Avenue," 1,150,000 "," 1,150,000 "," 1,250,000 ",1/20/15, 1.00 ,2015,32,3,2.1,2,1,1158,4000,--,Off-Street Parking,Yes,"Local/Neighborhood,Ocean"
+143, Southwest Carmel,0 MONTE VERDE 2 SE OF 7TH,7th," 1,375,000 "," 1,375,000 "," 1,250,000 ",7/22/14, 7.00 ,2014,81,3,3,3,0,1400,4000,--,Off-Street Parking,--,--
+143, Southwest Carmel,2 NE Monte Verde,12TH," 1,295,000 "," 1,295,000 "," 1,295,000 ",7/7/15, 7.00 ,2015,0,2,2,2,--,1340,4000,1,--,--,--
+143, Southwest Carmel,0 CAMINO REAL,8th," 1,295,000 "," 1,295,000 "," 1,295,000 ",5/23/14, 5.00 ,2014,7,3,2,2,0,921,4000,1,Gate/Door Opener,Yes,Ocean
+143, Southwest Carmel,0 Monte Verde 3 SW of 12th,12th Avenue," 1,595,000 "," 1,395,000 "," 1,335,000 ",11/4/15, 11.00 ,2015,121,4,2,2,--,1751,4000,1,--,--,--
+143, Southwest Carmel,0 SW Corner of MONTE VERDE & 8th Street,Eighth Avenue," 1,470,000 "," 1,470,000 "," 1,350,000 ",4/15/14, 4.00 ,2014,16,3,3,3,0,1578,5000,--,"Converted,Guest / Visitor Parking",Yes,Local/Neighborhood
+143, Southwest Carmel,0 LINCOLN & 11th SW Corner Street,11th," 1,450,000 "," 1,450,000 "," 1,350,000 ",7/24/14, 7.00 ,2014,72,2,2,2,0,1044,4000,1,--,Yes,Local/Neighborhood
+143, Southwest Carmel,0 CAMINO REAL 5 SE of 8th,8th," 1,695,000 "," 1,550,000 "," 1,424,000 ",8/29/14, 8.00 ,2014,227,3,2.1,2,1,1880,3920,1,"Gate/Door Opener,Off-Street Parking",--,--
+143, Southwest Carmel,0 Dolores & 12th NE Corner,12th," 1,495,000 "," 1,495,000 "," 1,445,000 ",8/10/15, 8.00 ,2015,27,2,2,2,--,1050,4896,2,Detached,--,--
+143, Southwest Carmel,0 CASANOVA & 10th NE CORNER Street,10th Ave.," 1,495,000 "," 1,495,000 "," 1,450,000 ",7/2/14, 7.00 ,2014,0,2,2,2,0,1030,4000,1,Detached,Yes,Local/Neighborhood
+143, Southwest Carmel,0 SE Monte Verde Street,13th," 1,399,000 "," 1,399,000 "," 1,451,000 ",7/31/15, 7.00 ,2015,7,2,2,2,--,1340,3920,1,--,--,--
+143, Southwest Carmel,0 MONTE VERDE 2 NE of 9th,9th," 1,525,000 "," 1,525,000 "," 1,525,000 ",4/28/14, 4.00 ,2014,5,3,2,2,0,1634,4000,1,Off-Street Parking,Yes,Ocean
+143, Southwest Carmel,0 Camino Real 2 NW 8th,8th Ave," 1,895,000 "," 1,695,000 "," 1,560,000 ",3/19/15, 3.00 ,2015,19,2,2,2,--,1310,3920,1,"Guest / Visitor Parking,Off-Street Parking",--,--
+143, Southwest Carmel,0 Monte Verde & 9th NE Corner,9th Corner NE," 2,475,000 "," 1,500,000 "," 1,665,000 ",11/26/14, 11.00 ,2014,102,3,2,2,0,1634,8000,3,"Detached,Off-Street Parking",--,--
+143, Southwest Carmel,0 CAMINO REAL 3 SW of 12th Avenue,12th," 1,795,000 "," 1,795,000 "," 1,687,300 ",10/3/14, 10.00 ,2014,175,3,2,2,0,1378,6000,--,--,--,--
+143, Southwest Carmel,0 Dolores 3 SW of 13th Street,13th Street," 1,895,000 "," 1,795,000 "," 1,690,000 ",7/28/15, 7.00 ,2015,143,3,2,2,--,1284,4000,1,--,No,None
+143, Southwest Carmel,0 Monte Verde 2SW of 13th,13th," 1,695,000 "," 1,695,000 "," 1,700,000 ",2/13/15, 2.00 ,2015,4,2,2,2,--,1405,7841,1,"Detached,On Street,Other",--,None
+143, Southwest Carmel,0 CARMELO 4 SE of 12th Street,12th," 1,895,000 "," 1,895,000 "," 1,797,500 ",2/19/14, 2.00 ,2014,59,2,2,2,0,1350,4000,1,Gate/Door Opener,Yes,Ocean
+143, Southwest Carmel,0 CARMELO 4 SW OCEAN AVE,Ocean Avenue," 1,895,000 "," 1,895,000 "," 1,800,000 ",4/2/14, 4.00 ,2014,14,3,3,3,0,2150,4000,--,"Gate/Door Opener,Off-Street Parking",--,--
+143, Southwest Carmel,0 SW CAMINO REAL,Ocean Ave," 199,995 "," 1,799,995 "," 1,825,000 ",6/23/14, 6.00 ,2014,125,3,3,3,0,1410,4400,2,--,Yes,"Canyon,Ocean"
+143, Southwest Carmel,0 Dolores 2 NW of 11th Street,11th Avenue," 2,095,000 "," 1,895,000 "," 1,875,000 ",10/8/15, 10.00 ,2015,193,3,3,3,--,1772,3920,1,Enclosed,Yes,Forest/Woods
+143, Southwest Carmel,0 SE DOLORES & 9TH,9 th street," 1,995,000 "," 1,995,000 "," 1,887,500 ",2/3/15, 2.00 ,2015,73,3,3,3,0,1983,4000,1,Guest / Visitor Parking,Yes,Local/Neighborhood
+143, Southwest Carmel,0 12TH Avenue,Monte Verde," 2,149,000 "," 1,995,000 "," 1,938,750 ",1/30/14, 1.00 ,2014,136,3,2,2,0,1536,4400,--,--,--,--
+143, Southwest Carmel,0 San Antonio 4 SW of 10th Avenue,10th Avenue," 1,999,000 "," 1,999,000 "," 1,950,000 ",2/13/15, 2.00 ,2015,36,3,2,2,--,972,3000,--,Off-Street Parking,Yes,Ocean
+143, Southwest Carmel,0 MONTE VERDE 2 NE of 13th Street,13th," 2,195,000 "," 2,095,000 "," 1,975,000 ",3/31/14, 3.00 ,2014,356,3,2,2,0,1912,4000,1,"Detached,Off-Street Parking",Yes,Local/Neighborhood
+143, Southwest Carmel,0 Dolores 2 SW of 11th St,11th," 2,295,000 "," 2,065,000 "," 1,984,125 ",9/28/15, 9.00 ,2015,83,3,2,2,--,1566,4000,1,"Detached,Enclosed,On Street,Parking Area",--,--
+143, Southwest Carmel,0 MONTE VERDE 4 SW OF 13TH Street,13th," 2,595,000 "," 2,295,000 "," 2,042,500 ",9/23/14, 9.00 ,2014,158,3,3.1,3,1,2331,8000,2,"Detached,Gate/Door Opener,Off-Street Parking",Yes,Local/Neighborhood
+143, Southwest Carmel,0 SE CORNER OF SAN ANTONIO & 11TH Avenue,11th Ave," 2,195,000 "," 2,195,000 "," 2,050,000 ",3/13/14, 3.00 ,2014,38,2,2,2,0,1360,4000,1,"Guest / Visitor Parking,Off-Street Parking",Yes,"Bay,Ocean"
+143, Southwest Carmel,0 MONTE VERDE 6SE of 13th Avenue,13th," 2,695,000 "," 2,395,000 "," 2,071,335 ",12/9/14, 12.00 ,2014,222,3,2,2,0,1839,6000,2,--,--,--
+143, Southwest Carmel,CARMELO & 12th NW Corner,12th," 2,795,000 "," 2,295,000 "," 2,122,000 ",6/19/15, 6.00 ,2015,250,2,2,2,0,1546,3485,1,--,Yes,"Bay,Local/Neighborhood,Ocean"
+143, Southwest Carmel,0 LINCOLN 3 SE of 11th,11th," 2,300,000 "," 2,300,000 "," 2,150,000 ",10/22/14, 10.00 ,2014,26,2,2,2,0,1579,4000,1,Off-Street Parking,Yes,Local/Neighborhood
+143, Southwest Carmel,0 CASANOVA 5 SW OF 8TH,8th," 2,650,000 "," 2,395,000 "," 2,200,000 ",12/16/13, 12.00 ,2013,249,3,3,3,0,2167,4000,--,--,Yes,"Local/Neighborhood,Ocean"
+144, Southeast Carmel,0 MISSION 8 SE of 8th,8th Avenue," 1,375,000 "," 1,375,000 "," 1,200,000 ",4/18/14, 4.00 ,2014,162,4,2.1,2,1,1674,4000,--,Off-Street Parking,Yes,Local/Neighborhood
+144, Southeast Carmel,0 SAN CARLOS 2 SE 13TH Street,13th Street," 1,300,000 "," 1,300,000 "," 1,200,000 ",3/13/14, 3.00 ,2014,22,3,2,2,0,1754,5663,--,--,Yes,Local/Neighborhood
+144, Southeast Carmel,JUNIPERO 2NW 11TH,11TH," 1,365,000 "," 1,365,000 "," 1,225,000 ",7/21/15, 7.00 ,2015,66,3,2,2,0,1594,4000,--,On Street,--,--
+144, Southeast Carmel,0 SAN CARLOS 3 NE OF SANTA LUCIA,Santa Lucia," 1,379,000 "," 1,299,000 "," 1,250,000 ",8/28/14, 8.00 ,2014,70,3,2,2,0,1540,4000,1,Off-Street Parking,Yes,"Mountains,Valley"
+144, Southeast Carmel,0 JUNIPERO 5 SE of 8th,8th Avenue," 1,350,000 "," 1,350,000 "," 1,295,000 ",2/5/15, 2.00 ,2015,52,3,2,2,0,1589,4000,1,Off-Street Parking,Yes,Local/Neighborhood
+144, Southeast Carmel,0 SAN CARLOS 2 NW of 9th Street,9th Avenue," 1,400,000 "," 1,400,000 "," 1,300,000 ",3/31/14, 3.00 ,2014,27,3,2,2,0,1667,4000,--,Off-Street Parking,Yes,Local/Neighborhood
+144, Southeast Carmel,0 SW Mission & 13th,Mission," 1,350,000 "," 1,350,000 "," 1,300,000 ",8/1/14, 8.00 ,2014,96,3,2,2,0,1587,4000,1,--,Yes,"Mountains,Local/Neighborhood"
+144, Southeast Carmel,0 Torres 2 NW of 10th Street,Torres / 10th," 1,275,000 "," 1,275,000 "," 1,300,000 ",7/2/15, 7.00 ,2015,13,3,3,3,--,1995,6500,2,Detached,--,--
+144, Southeast Carmel,0 NE PINE RIDGE Way,Forest," 1,325,000 "," 1,325,000 "," 1,325,000 ",7/29/14, 7.00 ,2014,6,3,2.1,2,1,1651,5368,1,Gate/Door Opener,Yes,Local/Neighborhood
+144, Southeast Carmel,3 SE Ninth Torres Street,--," 1,595,000 "," 1,495,000 "," 1,335,000 ",9/1/15, 9.00 ,2015,182,3,2.1,2,1,1539,3920,1,--,--,--
+144, Southeast Carmel,0 Mission 5 SE 10th Street,10th," 1,425,000 "," 1,425,000 "," 1,345,000 ",6/12/15, 6.00 ,2015,58,3,3,3,--,1571,4700,--,Guest / Visitor Parking,Yes,Other
+144, Southeast Carmel,2 SE OAK KNOLL & FOREST Way,Forest," 1,695,000 "," 1,495,000 "," 1,350,000 ",4/3/15, 4.00 ,2015,250,3,2.1,2,1,2085,5490,1,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,Local/Neighborhood
+144, Southeast Carmel,0 SE VIZCAINO Avenue,Mountain View," 1,495,000 "," 1,495,000 "," 1,360,000 ",1/23/15, 1.00 ,2015,0,4,2,2,0,2122,12518,1,Off-Street Parking,Yes,Local/Neighborhood
+144, Southeast Carmel,0 San Carlos 3 NW of 10th Ave Street,10th," 1,399,000 "," 1,399,000 "," 1,375,000 ",9/11/15, 9.00 ,2015,62,3,2,2,0,1497,6000,1,Off-Site Parking,--,--
+144, Southeast Carmel,0 TORRES &10th NW Corners,10th," 1,849,000 "," 1,495,000 "," 1,432,000 ",5/8/15, 5.00 ,2015,163,3,4,4,0,2454,5000,--,"Guest / Visitor Parking,Off-Street Parking",--,--
+144, Southeast Carmel,0 Santa Fe 4SW Ocean Street,--," 1,495,000 "," 1,495,000 "," 1,435,000 ",11/5/15, 11.00 ,2015,8,3,3.1,3,1,1679,4000,--,Off-Street Parking,--,--
+144, Southeast Carmel,0 Santa Fe 8 SW of 8th Street,8th Avenue," 1,550,000 "," 1,550,000 "," 1,500,000 ",8/20/14, 8.00 ,2014,88,3,2.1,2,1,1588,4000,1,--,Yes,"Garden/Greenbelt,Local/Neighborhood"
+144, Southeast Carmel,0 NE 10TH Avenue,Junipero," 1,739,000 "," 1,695,000 "," 1,600,000 ",11/5/13, 11.00 ,2013,121,3,2,2,0,1452,5663,1,Gate/Door Opener,Yes,Local/Neighborhood
+144, Southeast Carmel,0 TORRES 5 SW OF MOUNTAIN VIEW Street,Mountain View," 2,199,000 "," 1,750,000 "," 1,700,000 ",10/31/14, 10.00 ,2014,165,4,4,4,0,2278,6007,1,"Detached,Off-Street Parking",Yes,Local/Neighborhood
+144, Southeast Carmel,Corner 8NE Torres Street,Eighth," 1,875,000 "," 1,775,000 "," 1,722,000 ",4/30/15, 4.00 ,2015,77,4,3,3,0,1714,6000,--,Off-Street Parking,Yes,Forest/Woods
+144, Southeast Carmel,2957 SANTA LUCIA Avenue,Rio Rd.," 2,495,000 "," 2,195,000 "," 1,840,000 ",7/27/15, 7.00 ,2015,257,4,4.1,4,1,5243,8276,1,--,--,--
+144, Southeast Carmel,JUNIPERO & 10th SE CORNER,Junipero," 2,100,000 "," 1,899,000 "," 1,880,000 ",5/1/15, 5.00 ,2015,381,3,2,2,0,1684,4000,--,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",--,--
+144, Southeast Carmel,0 2 NW OF SAN CARLOS AND 13TH Avenue,13th," 2,649,000 "," 2,299,000 "," 2,040,000 ",8/25/14, 8.00 ,2014,97,4,3,3,0,2877,10000,2,Detached,Yes,Local/Neighborhood
+144, Southeast Carmel,0 GUADALUPE 2 NE 7TH Street,7th Avenue," 2,150,000 "," 2,150,000 "," 2,050,000 ",4/3/15, 4.00 ,2015,7,3,3,3,0,1831,4792,1,Off-Street Parking,Yes,"Forest/Woods,Other"
+144, Southeast Carmel,0 VIZCAINO 11 SW MOUNTAIN VIEW,Mountain View," 2,150,000 "," 2,150,000 "," 2,080,000 ",5/23/14, 5.00 ,2014,37,3,3,3,0,2235,5498,1,"Detached,Guest / Visitor Parking",Yes,Local/Neighborhood
+144, Southeast Carmel,0 CRESPI 1 SE OF MOUNTAIN VIEW,Mountain View," 2,295,000 "," 2,295,000 "," 2,110,000 ",3/27/15, 3.00 ,2015,113,3,2,2,0,1906,6635,1,"Detached,Gate/Door Opener,Off-Street Parking",Yes,Canyon
+145, Carmel Point,2696 SANTA LUCIA Avenue,Camino Real," 1,585,000 "," 1,585,000 "," 1,350,000 ",2/26/14, 2.00 ,2014,186,3,3,3,0,1865,6000,1,Off-Street Parking,--,--
+145, Carmel Point,2658 15TH Avenue,CAMINO REAL," 1,650,000 "," 1,650,000 "," 1,425,000 ",9/5/14, 9.00 ,2014,12,5,3,3,0,2835,6700,2,"Gate/Door Opener,Off-Street Parking",Yes,Mountains
+145, Carmel Point,2479 17TH Avenue,Vally View," 1,550,000 "," 1,550,000 "," 1,485,000 ",3/17/14, 3.00 ,2014,0,3,2,2,0,1938,4000,1,Gate/Door Opener,Yes,Local/Neighborhood
+145, Carmel Point,2789 14TH Avenue,Monte Verde," 1,625,000 "," 1,625,000 "," 1,525,000 ",6/19/14, 6.00 ,2014,41,4,3,3,0,2386,6300,2,--,Yes,"Local/Neighborhood,Ocean"
+145, Carmel Point,2779 15th Avenue,--," 1,995,000 "," 1,995,000 "," 1,925,000 ",5/27/15, 5.00 ,2015,0,3,2.1,2,1,2810,6000,1,Gate/Door Opener,--,--
+145, Carmel Point,2486 17TH Avenue,Rio Avenue," 2,395,000 "," 2,295,000 "," 2,050,000 ",10/14/14, 10.00 ,2014,240,3,2.2,2,2,2318,4600,2,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,Local/Neighborhood
+145, Carmel Point,26259 Hilltop Place,San Antonio," 2,248,000 "," 2,150,000 "," 2,095,000 ",7/24/15, 7.00 ,2015,74,3,2.1,2,1,1761,3758,1,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,"Bay,Ocean"
+145, Carmel Point,26334 RIVER PARK Place,16 TH Avenue," 2,150,000 "," 2,150,000 "," 2,100,000 ",4/15/14, 4.00 ,2014,41,3,3,3,0,1746,6000,1,"Gate/Door Opener,Off-Street Parking,Electric Car Hookup",Yes,"Mountains,Local/Neighborhood"
+145, Carmel Point,26270 VALLEY VIEW Avenue,16th Ave," 2,350,000 "," 2,350,000 "," 2,150,000 ",11/4/13, 11.00 ,2013,42,3,3,3,0,1596,3920,1,--,Yes,Valley
+145, Carmel Point,26269 OCEAN VIEW Avenue,Stewart/ Bay View," 2,595,000 "," 2,295,000 "," 2,150,000 ",6/3/14, 6.00 ,2014,309,3,3,3,0,1775,4300,2,Off-Street Parking,Yes,"Bay,Ocean"
+145, Carmel Point,26255 Dolores Street,15th Avenue," 2,250,000 "," 2,150,000 "," 2,150,000 ",10/9/15, 10.00 ,2015,167,2,2,2,--,1300,10300,1,"Guest / Visitor Parking,Off-Street Parking,Parking Area",Yes,"Forest/Woods,Mountains,Ocean"
+145, Carmel Point,26416 CARMELO Street,17th," 2,250,000 "," 2,250,000 "," 2,190,000 ",10/1/14, 10.00 ,2014,8,3,3,3,0,2105,4220,1,"Guest / Visitor Parking,Off-Street Parking",Yes,"Garden/Greenbelt,Mountains"
+147, Hatton Fields,25995 Junipero Avenue,Ridgewood," 1,189,000 "," 1,189,000 "," 1,204,000 ",4/23/15, 4.00 ,2015,24,4,3.1,3,1,2627,6600,2,--,--,--
+147, Hatton Fields,3662 LAZARRO Drive,Mesa Place," 1,250,000 "," 1,250,000 "," 1,225,000 ",8/14/14, 8.00 ,2014,24,3,2,2,0,1651,15500,2,--,Yes,"Mountains,Valley"
+147, Hatton Fields,26105 DICHRO Drive,Mesa," 1,490,000 "," 1,395,000 "," 1,276,700 ",2/28/14, 2.00 ,2014,123,3,2.1,2,1,2549,9400,2,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",--,--
+147, Hatton Fields,26186 Mesa Drive,Atherton," 1,395,000 "," 1,395,000 "," 1,300,000 ",7/6/15, 7.00 ,2015,47,2,3,3,--,1982,10800,2,--,--,--
+147, Hatton Fields,26062 MESA Drive,Taylor," 1,539,000 "," 1,395,000 "," 1,325,000 ",11/8/13, 11.00 ,2013,122,2,2,2,0,1767,9700,2,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,Local/Neighborhood
+147, Hatton Fields,25850 N Mesa Drive,Hatton Road," 1,450,000 "," 1,450,000 "," 1,368,000 ",10/13/15, 10.00 ,2015,66,4,4.1,4,1,4064,36200,2,--,Yes,Forest/Woods
+147, Hatton Fields,25393 HATTON Road,Ocean Ave.," 1,750,000 "," 1,475,000 "," 1,390,000 ",5/6/15, 5.00 ,2015,130,5,4,4,0,3771,20200,2,Off-Street Parking,Yes,Local/Neighborhood
+147, Hatton Fields,3407 7TH Avenue,Hatton Rd.," 1,849,000 "," 1,595,000 "," 1,500,000 ",1/5/15, 1.00 ,2015,249,3,4,4,0,2890,15900,3,--,--,--
+147, Hatton Fields,25690 HATTON Road,Mountain View," 1,895,000 "," 1,600,000 "," 1,600,000 ",12/20/13, 12.00 ,2013,152,5,4,4,0,3173,31300,2,Gate/Door Opener,Yes,Local/Neighborhood
+147, Hatton Fields,26056 MESA Drive,Atherton," 1,695,000 "," 1,695,000 "," 1,612,500 ",2/28/14, 2.00 ,2014,11,3,3,3,0,3367,--,2,--,--,--
+147, Hatton Fields,24993 HATTON Road,3rd," 1,950,000 "," 1,695,000 "," 1,615,000 ",7/28/14, 7.00 ,2014,106,4,4.1,4,1,4317,13600,2,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,Local/Neighborhood
+147, Hatton Fields,3385 MARTIN Road,Hatton," 1,649,000 "," 1,649,000 "," 1,625,000 ",11/15/13, 11.00 ,2013,5,4,3,3,0,3280,23086.8,2,--,Yes,Mountains
+147, Hatton Fields,26230 Mesa Drive,Trevis," 1,695,000 "," 1,695,000 "," 1,655,600 ",4/14/15, 4.00 ,2015,5,4,3.1,3,1,3025,14800,2,"Gate/Door Opener,Off-Street Parking",Yes,"Mountains,Ocean"
+147, Hatton Fields,25259 RANDALL Way,Ocean Avenue," 1,995,000 "," 1,850,000 "," 1,745,000 ",11/26/14, 11.00 ,2014,152,5,4,4,0,3089,11250,2,"Gate/Door Opener,Off-Street Parking",--,--
+147, Hatton Fields,3496 TAYLOR Road,Atherton," 1,795,000 "," 1,795,000 "," 1,745,000 ",6/30/14, 6.00 ,2014,15,4,3,3,0,3323,11500,--,--,Yes,Valley
+147, Hatton Fields,24936 VALLEY Way,Carpenter," 1,895,000 "," 1,895,000 "," 1,745,000 ",6/11/14, 6.00 ,2014,60,4,2.1,2,1,2426,10400,2,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking,RV/Boat Parking",Yes,Local/Neighborhood
+147, Hatton Fields,26183 Mesa Drive,Atherton," 1,895,000 "," 1,895,000 "," 1,790,000 ",6/4/15, 6.00 ,2015,0,5,3,3,--,2436,12700,2,"Detached,Guest / Visitor Parking",--,--
+147, Hatton Fields,25515 HATTON Road,Shafter," 1,895,000 "," 1,895,000 "," 1,800,000 ",5/19/14, 5.00 ,2014,26,3,4.1,4,1,2785,23700,2,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,Local/Neighborhood
+147, Hatton Fields,26219 ATHERTON Place,Atherton," 2,449,000 "," 2,349,000 "," 1,939,690 ",2/20/14, 2.00 ,2014,76,4,4,4,0,4193,11600,2,Off-Street Parking,Yes,"Mountains,Local/Neighborhood,Ocean,Valley"
+147, Hatton Fields,26157 ATHERTON Drive,Taylor," 2,350,000 "," 2,150,000 "," 1,950,000 ",8/7/14, 8.00 ,2014,392,4,3.1,3,1,3528,9800,2,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,Local/Neighborhood
+147, Hatton Fields,26123 MESA Drive,Dichro," 2,195,000 "," 2,100,000 "," 2,075,000 ",10/1/14, 10.00 ,2014,137,4,3,3,0,3562,12100,2,--,--,--
+147, Hatton Fields,3452 LAZARRO Drive,Atherton Dr.," 2,699,000 "," 2,499,000 "," 2,150,000 ",9/16/14, 9.00 ,2014,392,4,4,4,0,3696,12250,2,"Gate/Door Opener,Off-Street Parking",Yes,"Bay,Mountains"
+147, Hatton Fields,3232 TAYLOR Road,Mesa Drive," 2,395,000 "," 2,395,000 "," 2,175,000 ",7/16/14, 7.00 ,2014,65,4,4.1,4,1,4081,20647,3,Detached,Yes,"Mountains,Valley"
+149, High Meadows,3560 EDGEFIELD Place,Outlook," 1,249,000 "," 1,249,000 "," 1,200,000 ",12/23/14, 12.00 ,2014,24,4,3.1,3,1,3141,11173,2,Off-Street Parking,Yes,"Bay,Garden/Greenbelt,Mountains,Canyon,Ocean,Valley,City Lights"
+149, High Meadows,3622 EASTFIELD Road,Outlook Drive," 1,425,000 "," 1,425,000 "," 1,316,500 ",11/7/14, 11.00 ,2014,6,3,2.1,2,1,3118,12525,2,Gate/Door Opener,Yes,Local/Neighborhood
+149, High Meadows,3538 GREENFIELD Place,Outlook," 1,595,000 "," 1,525,000 "," 1,450,000 ",7/25/14, 7.00 ,2014,92,4,3.1,3,1,2671,9583,2,Gate/Door Opener,Yes,"Mountains,Ocean"
+149, High Meadows,3930 Via Mar Monte,High Meadow (Street name is Carpenter on the West," 2,100,000 "," 1,950,000 "," 1,895,000 ",8/21/15, 8.00 ,2015,173,6,4.1,4,1,4564,43560,3,Enclosed,Yes,Ocean
+149, High Meadows,3910 Via Mar Monte,Carpenter," 1,998,000 "," 1,949,000 "," 1,895,000 ",11/2/15, 11.00 ,2015,202,5,5.1,5,1,5200,60113,3,"Electric Gate,Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking,Parking Area",Yes,Mountains
+150, Jacks Peak,509 LOMA ALTA Road,Aguajito," 1,695,000 "," 1,297,000 "," 1,300,000 ",10/30/14, 10.00 ,2014,390,4,4,4,0,3292,252648,2,--,Yes,"Bay,Ocean"
+150, Jacks Peak,24704 AGUAJITO Road,Valenzuela Road," 1,795,000 "," 1,734,000 "," 1,500,000 ",2/12/15, 2.00 ,2015,263,3,3,3,0,2902,221720,3,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking,RV/Boat Parking",Yes,"Canyon,Valley,City Lights"
+150, Jacks Peak,550 AGUAJITO Road,Paseo Venado," 2,650,000 "," 2,350,000 "," 1,875,000 ",5/22/14, 5.00 ,2014,306,3,2,2,0,1704,283140,--,"Guest / Visitor Parking,Off-Street Parking",Yes,Valley
+150, Jacks Peak,24105 FAIRFIELD Place,Paso Venado," 2,875,000 "," 2,299,000 "," 2,150,000 ",6/3/14, 6.00 ,2014,535,5,4.1,4,1,4366,222470,3,"Detached,Gate/Door Opener,Guest / Visitor Parking,RV/Boat Parking",Yes,"Bay,Mountains,City Lights"
+151, Carmel Meadows,2915 RIBERA Road,Mariposa Court," 1,625,000 "," 1,495,000 "," 1,325,000 ",8/5/14, 8.00 ,2014,140,4,3,3,0,2272,8700,2,Gate/Door Opener,Yes,"Garden/Greenbelt,Mountains,Valley"
+151, Carmel Meadows,2927 HILLCREST Circle,Cuesta Way," 2,195,000 "," 1,675,000 "," 1,515,000 ",6/30/14, 6.00 ,2014,435,3,4,4,0,3326,22200,2,--,Yes,"Bay,Mountains,Canyon,Local/Neighborhood,Ocean,Valley,City Lights"
+151, Carmel Meadows,2925 Ribera Road,Highway 1," 1,695,000 "," 1,695,000 "," 1,588,000 ",9/9/15, 9.00 ,2015,58,4,3,3,--,2824,9600,2,--,Yes,"Greenbelt,Mountains,Panoramic,Pasture,Valley"
+151, Carmel Meadows,2919 HILLCREST Circle,Cuesta," 1,690,000 "," 1,690,000 "," 1,600,000 ",7/8/14, 7.00 ,2014,43,3,2.1,2,1,2530,10200,2,--,Yes,"Bay,Mountains,Ocean"
+151, Carmel Meadows,2730 RIBERA Road,Calle La Cruz," 1,695,000 "," 1,695,000 "," 1,625,000 ",2/28/14, 2.00 ,2014,195,4,2.1,2,1,2416,12197,2,--,Yes,Ocean
+151, Carmel Meadows,2845 RIBERA Road,Meadow Way," 1,895,000 "," 1,895,000 "," 1,800,000 ",11/21/14, 11.00 ,2014,4,3,2,2,0,2381,6728,1,"Guest / Visitor Parking,Off-Street Parking",Yes,"Mountains,Local/Neighborhood,Valley"
+151, Carmel Meadows,2804 Pradera,Meadow," 2,050,000 "," 2,050,000 "," 1,990,000 ",6/29/15, 6.00 ,2015,12,3,2.1,2,1,2856,8600,2,Guest / Visitor Parking,Yes,Ocean
+151, Carmel Meadows,2727 PRADERA Road,Ribera," 2,895,000 "," 2,295,000 "," 2,150,000 ",3/18/15, 3.00 ,2015,358,3,3,3,0,2900,11700,2,"Guest / Visitor Parking,Off-Street Parking",Yes,"Mountains,Ocean"
+160, Carmel Views / Rancho Rio Vista,25950 CARMEL KNOLLS Drive,Dougherty," 1,249,000 "," 1,249,000 "," 1,237,000 ",10/21/14, 10.00 ,2014,32,4,3,3,0,3379,14066,2,"Guest / Visitor Parking,Off-Street Parking",Yes,"Mountains,Valley"
+160, Carmel Views / Rancho Rio Vista,25482 CARMEL KNOLLS Drive,Carmel Valley Rd.," 1,449,000 "," 1,349,000 "," 1,253,000 ",3/13/15, 3.00 ,2015,175,3,3.1,3,1,3227,16988,2,Detached,Yes,"Garden/Greenbelt,Local/Neighborhood"
+160, Carmel Views / Rancho Rio Vista,24925 Pine Hills Drive,Outlook Dr.," 1,499,000 "," 1,399,000 "," 1,315,000 ",10/30/15, 10.00 ,2015,39,4,3.1,3,1,3286,25265,2,Guest / Visitor Parking,Yes,Garden/Greenbelt
+160, Carmel Views / Rancho Rio Vista,25910 CANADA Drive,Rio Vista," 1,495,000 "," 1,395,000 "," 1,325,000 ",12/13/13, 12.00 ,2013,100,4,3,3,0,3140,45302,3,"Gate/Door Opener,Off-Street Parking",Yes,"Mountains,Local/Neighborhood,Valley"
+160, Carmel Views / Rancho Rio Vista,24953 OUTLOOK Lane,Outlook Dr.," 1,550,000 "," 1,550,000 "," 1,455,000 ",11/7/14, 11.00 ,2014,57,4,3,3,0,3313,28750,2,"Gate/Door Opener,Guest / Visitor Parking",Yes,"Bay,Mountains,Local/Neighborhood,Ocean,Valley"
+160, Carmel Views / Rancho Rio Vista,24930 OUTLOOK Drive,Canada Dr.," 1,595,000 "," 1,595,000 "," 1,475,000 ",3/18/15, 3.00 ,2015,191,4,3,3,0,3759,25762,2,"Guest / Visitor Parking,Off-Street Parking",Yes,"Local/Neighborhood,Ocean"
+160, Carmel Views / Rancho Rio Vista,24833 OUTLOOK Court,Outlook Drive," 1,499,000 "," 1,499,000 "," 1,477,500 ",12/20/13, 12.00 ,2013,35,3,3.1,3,1,3157,20761,2,--,Yes,"Mountains,Canyon,Local/Neighborhood,Ocean,City Lights"
+160, Carmel Views / Rancho Rio Vista,25200 PINE HILLS Drive,Outlook Drive," 1,595,000 "," 1,595,000 "," 1,540,000 ",5/15/14, 5.00 ,2014,7,3,3.1,3,1,2947,19525,2,"Gate/Door Opener,Guest / Visitor Parking,Off-Street Parking",Yes,"Bay,Mountains,Canyon,Local/Neighborhood,Ocean,Valley"
+160, Carmel Views / Rancho Rio Vista,24690 OUTLOOK Drive,Canada Drive," 1,649,000 "," 1,649,000 "," 1,575,000 ",2/28/14, 2.00 ,2014,48,3,3.1,3,1,3836,25839,--,"Gate/Door Opener,Guest / Visitor Parking",Yes,"Mountains,Ocean"
+160, Carmel Views / Rancho Rio Vista,4105 SEGUNDA Drive,Rio Vista," 1,595,000 "," 1,595,000 "," 1,595,000 ",6/6/14, 6.00 ,2014,8,3,4.1,4,1,3511,47916,2,Off-Street Parking,Yes,Mountains
+160, Carmel Views / Rancho Rio Vista,24895 OUTLOOK Drive,Canada Drive," 1,885,000 "," 1,885,000 "," 1,675,000 ",9/23/14, 9.00 ,2014,9,5,4,4,0,4735,21344,3,"Guest / Visitor Parking,Off-Street Parking",Yes,"Bay,Mountains,Ocean"
+167, Carmel Valley Ranch,9661 Willow Court,--," 1,279,000 "," 1,279,000 "," 1,240,000 ",4/3/15, 4.00 ,2015,2,3,2.1,2,1,2416,5028,2,"Detached,Guest / Visitor Parking",Yes,"Garden/Greenbelt,Golf Course,Mountains"
+167, Carmel Valley Ranch,10435 Fairway Lane,Old Ranch Road," 1,349,000 "," 1,325,000 "," 1,260,000 ",10/9/15, 10.00 ,2015,141,3,2.1,2,1,2746,4789,2,"Gate/Door Opener,Guest / Visitor Parking",Yes,"Golf Course,Hills,Panoramic,Valley"
+167, Carmel Valley Ranch,28052 Hawk Court,--," 1,375,000 "," 1,375,000 "," 1,350,000 ",7/23/15, 7.00 ,2015,32,3,3.1,3,1,2348,3656,2,Detached,Yes,"Golf Course,Mountains,Valley"
+167, Carmel Valley Ranch,27173 Prado Del Sol,Carmel Valley Rd.," 1,595,000 "," 1,395,000 "," 1,350,000 ",10/19/15, 10.00 ,2015,106,4,2.1,2,1,2681,56628,3,--,--,--
+167, Carmel Valley Ranch,10124 Oakwood Circle,Oakshire / Old Ranch," 1,495,000 "," 1,495,000 "," 1,500,000 ",5/22/15, 5.00 ,2015,7,4,4.1,4,1,3647,4356,2,Detached,Yes,"Golf Course,Hills,Valley"
+167, Carmel Valley Ranch,9935 Holt Road,Robinson Canyon," 1,650,000 "," 1,595,000 "," 1,575,000 ",8/7/15, 8.00 ,2015,112,4,3.1,3,1,3648,30492,2,"Electric Gate,Gate/Door Opener",Yes,"Golf Course,Hills,Valley"
