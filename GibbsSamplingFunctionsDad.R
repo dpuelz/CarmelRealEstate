@@ -207,7 +207,7 @@ Gibbswrapper = function(loops,y,X,numi,alphaIDlist,BPrior)
     }
     
     # SAMPLE betas
-    BMCMC[,i] = as.numeric(sampleB(y-alphas,X,sig2MCMC[i-1],rep(tau2MCMC[,i-1],numi*numj),rep(muMCMC[,i-1],numi*numj)))
+    BMCMC[,i] = as.numeric(sampleB(y-alphas,X,sig2MCMC[i-1],rep(tau2MCMC[,i-1],numi),rep(muMCMC[,i-1],numi)))
     
     # SAMPLE sig2
     sig2MCMC[i] = samplesig2(y-alphas,X,BMCMC[,i])
@@ -231,9 +231,8 @@ Gibbswrapper = function(loops,y,X,numi,alphaIDlist,BPrior)
     
     # sample prior parameter sigalpha2
     sigmalpha2MCMC[i] = samplesigmalpha2(alphaMCMC[,i-1])
-    # sigmalpha2MCMC[i] = 50
     
-    # SAMPLE the country i level fixed effects (alphas)
+    # SAMPLE the neighborhood i level fixed effects (alphas)
     for(j in 1:numi)
     {
       ind = alphaIDlist[[j]]
