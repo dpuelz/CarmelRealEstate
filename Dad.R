@@ -51,7 +51,7 @@ for(i in loopind)
 }
 
 # saving the response as y
-y = as.numeric(carmel2$Closeprice) / as.numeric(carmel2$Homesqft)
+y = log(as.numeric(carmel2$Closeprice) / as.numeric(carmel2$Homesqft))
 
 # Estimating Model via Gibbs Sampler --------------------------------------
 
@@ -62,9 +62,9 @@ for(i in 1:length(uneigh))
 }
 
 source('GibbsSamplingFunctionsDad.R')
-loops = 1000
+loops = 100
 numi = length(uneigh)
-results = Gibbswrapper(loops,y,X,numi,alphaIDlist,BPrior=FALSE)
+results = Gibbswrapper(loops,y,X,numi,alphaIDlist,BPrior=TRUE)
 
 # Summarizing results -----------------------------------------------------
 
@@ -85,18 +85,18 @@ for(i in 1:length(ucounti))
   for(j in 1:length(ucountj))
   {
     ii = loopind[count]
-    rownames(BMCMC)[ii] = paste(paste(ucounti[i],"/",ucountj[j],sep=''),paste('B',1,sep=''),sep=' ')
-    rownames(BMCMC)[ii+1] = paste(paste(ucounti[i],"/",ucountj[j],sep=''),paste('B',2,sep=''),sep=' ')
-    rownames(BMCMC)[ii+2] = paste(paste(ucounti[i],"/",ucountj[j],sep=''),paste('B',3,sep=''),sep=' ')
+    rownames(BMCMC)[ii] = paste(paste(uneigh[i],paste('B',1,sep=''),sep=' '))
+    rownames(BMCMC)[ii+1] = paste(paste(uneigh[i],paste('B',2,sep=''),sep=' '))
+    rownames(BMCMC)[ii+2] = paste(paste(uneigh[i],paste('B',3,sep=''),sep=' '))
     count=count+1
   }
 }
 
 # naming alphas
 rownames(alphaMCMC) = rep("NA",dim(alphaMCMC)[1])
-for(i in 1:length(ucounti))
+for(i in 1:length(uneigh))
 {
-  rownames(alphaMCMC)[i] = paste(ucounti[i],'alpha',sep=' ')
+  rownames(alphaMCMC)[i] = paste(uneigh[i],'alpha',sep=' ')
 }
 
 pdf('prelimresults-BETAS.pdf',paper = "a4", width = 0, height = 0)
@@ -107,6 +107,16 @@ dev.off()
 pdf('prelimresults-alphas.pdf',paper = "a4", width = 0, height = 0)
 par(mfrow = c(3,3))
 reportMCMC(t(alphaMCMC))
+dev.off()
+
+pdf('prelimresults-mu.pdf',paper = "a4", width = 0, height = 0)
+par(mfrow = c(3,3))
+reportMCMC(t(muMCMC))
+dev.off()
+
+pdf('prelimresults-tau.pdf',paper = "a4", width = 0, height = 0)
+par(mfrow = c(3,3))
+reportMCMC(t(tau2MCMC))
 dev.off()
 
 

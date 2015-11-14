@@ -165,7 +165,7 @@ Gibbswrapper = function(loops,y,X,numi,alphaIDlist,BPrior)
 {
   # prior on mui
   m = 0
-  sig02 = 1000
+  sig02 = 100
   
   # other stuff
   size = dim(X)[2]
