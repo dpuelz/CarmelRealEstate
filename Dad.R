@@ -62,9 +62,9 @@ for(i in 1:length(uneigh))
 }
 
 source('GibbsSamplingFunctionsDad.R')
-loops = 100
+loops = 10000
 numi = length(uneigh)
-results = Gibbswrapper(loops,y,X,numi,alphaIDlist,BPrior=TRUE)
+results = Gibbswrapper(loops,y,X,numi,alphaIDlist,BPrior=FALSE)
 
 # Summarizing results -----------------------------------------------------
 
@@ -75,21 +75,21 @@ muMCMC = results[[4]]
 alphaMCMC = results[[5]]
 sigmalpha2MCMC = results[[6]]
 
-range=3000:loops
+range=(loops/2):loops
 
 # naming betas
+
 rownames(BMCMC) = rep("NA",dim(BMCMC)[1])
 count=1
-for(i in 1:length(ucounti))
+for(i in 1:length(uneigh))
 {
-  for(j in 1:length(ucountj))
-  {
-    ii = loopind[count]
-    rownames(BMCMC)[ii] = paste(paste(uneigh[i],paste('B',1,sep=''),sep=' '))
-    rownames(BMCMC)[ii+1] = paste(paste(uneigh[i],paste('B',2,sep=''),sep=' '))
-    rownames(BMCMC)[ii+2] = paste(paste(uneigh[i],paste('B',3,sep=''),sep=' '))
-    count=count+1
-  }
+  ii = loopind[count]
+  rownames(BMCMC)[ii] = paste(paste(uneigh[i],'Beds',paste('B',1,sep=''),sep=' '))
+  rownames(BMCMC)[ii+1] = paste(paste(uneigh[i],'Full Baths',paste('B',2,sep=''),sep=' '))
+  rownames(BMCMC)[ii+2] = paste(paste(uneigh[i],'Total Baths',paste('B',3,sep=''),sep=' '))
+  rownames(BMCMC)[ii+3] = paste(paste(uneigh[i],'Lot sqft',paste('B',4,sep=''),sep=' '))
+  rownames(BMCMC)[ii+4] = paste(paste(uneigh[i],'DOM',paste('B',5,sep=''),sep=' '))
+  count=count+1
 }
 
 # naming alphas
@@ -100,44 +100,23 @@ for(i in 1:length(uneigh))
 }
 
 pdf('prelimresults-BETAS.pdf',paper = "a4", width = 0, height = 0)
-par(mfrow = c(6,3))
-reportMCMC(t(BMCMC))
+par(mfrow = c(5,3))
+reportMCMC(t(BMCMC[,range]))
 dev.off()
 
 pdf('prelimresults-alphas.pdf',paper = "a4", width = 0, height = 0)
 par(mfrow = c(3,3))
-reportMCMC(t(alphaMCMC))
+reportMCMC(t(alphaMCMC[,range]))
 dev.off()
 
 pdf('prelimresults-mu.pdf',paper = "a4", width = 0, height = 0)
 par(mfrow = c(3,3))
-reportMCMC(t(muMCMC))
+reportMCMC(t(muMCMC[,range]))
 dev.off()
 
 pdf('prelimresults-tau.pdf',paper = "a4", width = 0, height = 0)
 par(mfrow = c(3,3))
-reportMCMC(t(tau2MCMC))
+reportMCMC(t(tau2MCMC[,range]))
 dev.off()
 
-
-plot(sig2MCMC,type='l',col=2)
-plot(sigmalpha2MCMC,type='l',col=5)
-
-plot(tau2MCMC[1,],type='l')
-plot(tau2MCMC[2,],type='l')
-plot(tau2MCMC[3,],type='l')
-
-plot(muMCMC[1,],type='l')
-plot(muMCMC[2,],type='l')
-plot(muMCMC[3,],type='l')
-
-plot(BMCMC[1,],type='l')
-plot(BMCMC[2,],type='l')
-plot(BMCMC[3,],type='l')
-plot(BMCMC[4,],type='l')
-
-plot(BMCMC[10,],type='l')
-plot(BMCMC[11,],type='l')
-plot(BMCMC[12,],type='l')
-plot(BMCMC[13,],type='l')
 

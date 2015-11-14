@@ -83,7 +83,7 @@ reportMCMC = function(obj)
   {
     for (i in 1:dim(draws)[2])
     {
-      ts.plot(draws[,i],xlab="iterations",ylab="",main=colnames(draws)[i]) 
+      plot(draws[,i],xlab="iterations",ylab="",main=colnames(draws)[i],cex.main=.75,type='l') 
       abline(h=mean(draws[,i]),col=2,lwd=2)
       acf(draws[,i],main="") 
       hist(draws[,i],prob=T,main="",xlab="") 
@@ -92,7 +92,7 @@ reportMCMC = function(obj)
   }
   else
   {
-    ts.plot(draws,xlab="iterations",ylab="",main=names(draws)[1]) 
+    plot(draws,xlab="iterations",ylab="",main=names(draws)[1],cex.main=.75,type='l') 
     abline(h=mean(draws),col=2,lwd=2)
     acf(draws,main="") 
     hist(draws,prob=T,main="",xlab="") 
