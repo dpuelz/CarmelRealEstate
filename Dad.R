@@ -62,9 +62,9 @@ for(i in 1:length(uneigh))
 }
 
 source('GibbsSamplingFunctionsDad.R')
-loops = 10000
+loops = 2000
 numi = length(uneigh)
-results = Gibbswrapper(loops,y,X,numi,alphaIDlist,BPrior=FALSE)
+results = Gibbswrapper(loops,y,X,numi,alphaIDlist,BPrior=TRUE)
 
 # Summarizing results -----------------------------------------------------
 
